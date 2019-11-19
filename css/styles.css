@@ -1,0 +1,16 @@
+#interfaz{
+
+    display: none;
+}
+
+.letra{
+    margin-right: 10px;
+    width:10%;
+    height: 10%;
+    display: inline-block;
+    min-width: 10%;
+    background-color: aqua;
+    
+}
+
+
