@@ -262,7 +262,7 @@ function StadisticsRestart(contador){
     }
     
     document.getElementById('vidaleft').innerHTML = `${vidas} `
-    for (i = 1; i <= 26; i++) {
+    for (i = 1; i <= 27; i++) {
         document.getElementById(`bn${i}`).disabled = false;
     }
 
