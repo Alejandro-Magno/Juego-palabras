@@ -15,7 +15,7 @@ let palabra = [{1:'camisa',2:'ROPA'},
               {1:'correa',2:'ROPA'}, 
               {1:'mono',2:'ANIMAL'},
               {1:'rusia',2:'PAIS'},
-              {1:'alemania',2:'PAIS'},
+              {1:'china',2:'PAIS'},
               {1:'turquia',2:'PAIS'},
               {1:'gusano',2:'ANIMAL'},
               {1:'camello',2:'ANIMAL'},
@@ -23,7 +23,7 @@ let palabra = [{1:'camisa',2:'ROPA'},
               {1:'pulcera',2:'ACCESORIO'},
               {1:'sandra',2:'NOMBRE'},
               {1:'OSCAR',2:'NOMBRE'},
-              
+
 
               
             
