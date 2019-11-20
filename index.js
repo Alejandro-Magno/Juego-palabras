@@ -1,12 +1,31 @@
 
 //Variables Globales
 
-let palabra = [{1:'camisa',2:'ACCESORIO'},
-              {1:'zapato',2:'ACCESORIO'}, 
+let palabra = [{1:'camisa',2:'ROPA'},
+              {1:'zapato',2:'ROPA'}, 
               {1:'gato',2:'ANIMAL'},
               {1:'canada',2:'PAIS'},
               {1:'mexico',2:'PAIS'},
-              {1:'canada',2:'PAIS'}
+              {1:'italia',2:'PAIS'},
+              {1:'armadillo',2:'ANIMAL'},
+              {1:'loro',2:'ANIMAL'},
+              {1:'relog',2:'ACCESORIO'},
+              {1:'collar',2:'ACCESORIO'},
+              {1:'falda',2:'ROPA'},
+              {1:'correa',2:'ROPA'}, 
+              {1:'mono',2:'ANIMAL'},
+              {1:'rusia',2:'PAIS'},
+              {1:'alemania',2:'PAIS'},
+              {1:'turquia',2:'PAIS'},
+              {1:'gusano',2:'ANIMAL'},
+              {1:'camello',2:'ANIMAL'},
+              {1:'arete',2:'ACCESORIO'},
+              {1:'pulcera',2:'ACCESORIO'},
+              {1:'sandra',2:'NOMBRE'},
+              {1:'OSCAR',2:'NOMBRE'},
+              
+
+              
             
             
             
