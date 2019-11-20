@@ -23,20 +23,8 @@ let palabra = [{1:'camisa',2:'ROPA'},
               {1:'pulcera',2:'ACCESORIO'},
               {1:'sandra',2:'NOMBRE'},
               {1:'OSCAR',2:'NOMBRE'},
-
-
-              
-            
-            
-            
             ]
               
-
-
-
-
-
-
 let acertijo
 let vidas = 10
 let aciertos = 0
@@ -51,7 +39,7 @@ let WordSize = 0
 let random
 let racha =0
 
-function ramdonpalabra() {
+ ramdonpalabra = () => {
      random = Math.floor(Math.random() * `${palabra.length}`);
    
 
@@ -69,7 +57,7 @@ function ramdonpalabra() {
 
 } // Elige una palabra random para el juego
 
-function startGame() {
+ startGame =() => {
 
 
     document.getElementById('interfaz').style.display = "block"; //Muestra interfaz
@@ -87,7 +75,7 @@ function startGame() {
 
 } //Inicia el juego
 
-function play(palabra) {
+ play = palabra => {
 
 
     let longitud = palabra.length
@@ -119,7 +107,7 @@ function play(palabra) {
 
 } //Crea la interfaz de juego
 
-function letra( opcionUser) {
+ letra  = opcionUser => {
     
     let acum = 0 // Se declara aqui para que sea global a la funcion
 
@@ -169,7 +157,7 @@ function letra( opcionUser) {
 
 } // Funcionamientos de botones
 
-function validacion(ganar) {
+ validacion = ganar => {
 
  
     if(vidas == 4){
@@ -192,7 +180,7 @@ function validacion(ganar) {
 
 } // Verifica cuando se ha ganado
 
-function Ganar(){
+Ganar =() =>{
     if (aciertos == WordSize) {
         
         console.log('has ganado')
@@ -208,7 +196,7 @@ function Ganar(){
 
 }
 
-function select(texto) {
+select  =texto  =>{
 
     opcionUser = `${texto.innerHTML}`.toLowerCase()
     letra(opcionUser)
@@ -223,7 +211,7 @@ function select(texto) {
 
 } // Substrae la opcion de los botones
 
-function restart() {
+ restart =()  =>{
 
     elemento = document.getElementById('spacesContainer')
     while (elemento.firstChild) {
@@ -232,7 +220,7 @@ function restart() {
 
 } // Borra la interfaz principal
 
-function restart2(contador) {
+ restart2 =()=> {
    
     if(victorias>racha){
         racha = victorias
@@ -240,13 +228,13 @@ function restart2(contador) {
     DeleteGameInterface() //Borramos interfaz de juego
     ramdonpalabra() // Seleccionamos una nueva palabra
     play(PalabraSeleccion) //Creamos una nueva interfaz
-    StadisticsRestart(contador) // Reiniciamos las estadisticas y botones
+    StadisticsRestart() // Reiniciamos las estadisticas y botones
     document.getElementById('racha').innerHTML =`Mejor Racha: ${racha} Racha Actual ${victorias} Perdidas: ${derrotas}`
 
 
 }// Reinicia la interfaz y estadisticas de juego
 
-function DeleteGameInterface(){
+DeleteGameInterface =() =>{
 
     elemento = document.getElementById('spaces')
     while (elemento.firstChild) {
@@ -255,7 +243,7 @@ function DeleteGameInterface(){
 
 }
 
-function StadisticsRestart(contador){
+StadisticsRestart =contador =>{
     if(derrotas>0){
 
         vidas = 10
@@ -273,7 +261,7 @@ function StadisticsRestart(contador){
 }
 
 let segundos=4
-function segundosfn(){
+segundosfn =() =>{
 
 
  
