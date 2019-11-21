@@ -9,7 +9,7 @@ let palabra = [{1:'camisa',2:'ROPA'},
               {1:'italia',2:'PAIS'},
               {1:'gacela',2:'ANIMAL'},
               {1:'loro',2:'ANIMAL'},
-              {1:'relog',2:'ACCESORIO'},
+              {1:'reloj',2:'ACCESORIO'},
               {1:'collar',2:'ACCESORIO'},
               {1:'falda',2:'ROPA'},
               {1:'correa',2:'ROPA'}, 
@@ -22,7 +22,7 @@ let palabra = [{1:'camisa',2:'ROPA'},
               {1:'arete',2:'ACCESORIO'},
               {1:'pulcera',2:'ACCESORIO'},
               {1:'sandra',2:'NOMBRE'},
-              {1:'OSCAR',2:'NOMBRE'},
+              {1:'oscar',2:'NOMBRE'},
             ]
               
 let acertijo
@@ -178,7 +178,7 @@ let racha =0
 
   
 
-} // Verifica cuando se ha ganado
+} 
 
 Ganar =() =>{
     if (aciertos == WordSize) {
@@ -194,7 +194,7 @@ Ganar =() =>{
 
     }
 
-}
+}// Verifica cuando se ha ganado
 
 select  =texto  =>{
 
